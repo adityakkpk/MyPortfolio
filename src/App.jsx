@@ -1,3 +1,4 @@
+import About from "./Components/About"
 import Hero from "./Components/Hero"
 import Navbar from "./Components/Navbar"
 
@@ -12,6 +13,7 @@ function App() {
       <div className="container mx-auto px-2 lg:px-12">
         <Navbar />
         <Hero />
+        <About />
       </div>
 
     </div>
