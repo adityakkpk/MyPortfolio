@@ -22,7 +22,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    demoLink: '',
+    demoLink: 'https://my-portfolio-git-main-aditya-kumar-kushwahas-projects.vercel.app/',
   },
   {
     title: "Blogging Application",
