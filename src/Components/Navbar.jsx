@@ -14,13 +14,13 @@ const Navbar = () => {
   return (
     <nav className="h-16 flex flex-wrap justify-between items-center fixed left-0 right-0 top-0 py-2 lg:px-12 backdrop-blur-xl bg-transparent">
         <div className="flex flex-wrap items-center justify-center text-2xl gap-4 px-3">
-            <a href="https://www.linkedin.com/in/adityakumarkushwaha">
+            <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha">
                 <FaLinkedin />
             </a>
-            <a href="https://github.com/adityakkpk">
+            <a target="_blank" href="https://github.com/adityakkpk">
                 <FaGithub />
             </a>
-            <a href="https://x.com/akkpk933">
+            <a target="_blank" href="https://x.com/akkpk933">
                 <FaSquareXTwitter />
             </a>
         </div>

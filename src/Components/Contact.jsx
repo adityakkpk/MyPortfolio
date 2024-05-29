@@ -48,13 +48,13 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="flex flex-wrap items-center justify-center text-2xl gap-4 px-3 py-10"
       >
-        <a href="https://www.linkedin.com/in/adityakumarkushwaha">
+        <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha">
           <FaLinkedin />
         </a>
-        <a href="https://github.com/adityakkpk">
+        <a target="_blank" href="https://github.com/adityakkpk">
           <FaGithub />
         </a>
-        <a href="https://x.com/akkpk933">
+        <a target="_blank" href="https://x.com/akkpk933">
           <FaSquareXTwitter />
         </a>
       </motion.div>
