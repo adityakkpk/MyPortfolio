@@ -53,7 +53,7 @@ const Projects = () => {
                   <a
                     target="_blank"
                     className="my-2 text-blue-700"
-                    href="https://adityakkpk.github.io/AmazoneClone/amazon.html"
+                    href={project.demoLink}
                   >
                     Project Link
                   </a>
