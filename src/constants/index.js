@@ -30,7 +30,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using Appwrite as Backend",
     technologies: ["HTML", "CSS", "React", "Appwrite",],
-    demoLink: '',
+    demoLink: 'https://mini-blog-react-appwrite-app.vercel.app/',
   },
 ];
 
