@@ -52,10 +52,18 @@ const Projects = () => {
                 <div className="mt-2">
                   <a
                     target="_blank"
-                    className="my-2 text-blue-700"
+                    className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
                     href={project.demoLink}
                   >
-                    Project Link
+                    Live
+                  </a>
+                  <span> | </span>
+                  <a
+                    target="_blank"
+                    className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
+                    href={project.githubLink}
+                  >
+                    Github
                   </a>
                 </div>
               )}

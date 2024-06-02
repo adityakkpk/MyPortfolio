@@ -3,6 +3,7 @@ import { CONTACT } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaRegFilePdf } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -56,6 +57,9 @@ const Contact = () => {
         </a>
         <a target="_blank" href="https://x.com/akkpk933">
           <FaSquareXTwitter />
+        </a>
+        <a target="_blank" href="https://drive.google.com/file/d/1-InMJC7fEN74o7_dlHoEq2XmsSdGKNsd/view">
+          <FaRegFilePdf />
         </a>
       </motion.div>
     </div>

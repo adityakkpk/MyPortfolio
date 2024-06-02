@@ -15,6 +15,7 @@ export const PROJECTS = [
       "A fully functional website with features like product listing, shopping cart, and tracking of orders.",
     technologies: ["HTML", "CSS", "Javascript"],
     demoLink: 'https://adityakkpk.github.io/AmazoneClone/amazon.html',
+    githubLink: 'https://github.com/adityakkpk/AmazoneClone'
   },
   {
     title: "Portfolio Website",
@@ -23,6 +24,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
     demoLink: 'https://my-portfolio-git-main-aditya-kumar-kushwahas-projects.vercel.app/',
+    githubLink: 'https://github.com/adityakkpk/MyPortfolio'
   },
   {
     title: "Blogging Application",
@@ -31,6 +33,7 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using Appwrite as Backend",
     technologies: ["HTML", "CSS", "React", "Appwrite",],
     demoLink: 'https://mini-blog-react-appwrite-app.vercel.app/',
+    githubLink: 'https://github.com/adityakkpk/MiniBlog-React-Appwrite'
   },
 ];
 
