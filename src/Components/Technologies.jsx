@@ -1,4 +1,3 @@
-import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
@@ -53,7 +52,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiExpress className="text-7xl text-black" />
+          <SiExpress className="text-7xl text-slate-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}

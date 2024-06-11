@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from 'react';
 import {FaLinkedin} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaSquareXTwitter} from 'react-icons/fa6'
@@ -14,13 +14,13 @@ const Navbar = () => {
   return (
     <nav className="h-16 flex flex-wrap justify-between items-center fixed left-0 right-0 top-0 py-2 lg:px-12 px-3 backdrop-blur-xl bg-transparent">
         <div className="flex flex-wrap items-center justify-center text-2xl gap-4 px-3">
-            <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha">
+            <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha" className='text-blue-600'>
                 <FaLinkedin />
             </a>
             <a target="_blank" href="https://github.com/adityakkpk">
                 <FaGithub />
             </a>
-            <a target="_blank" href="https://x.com/akkpk933">
+            <a target="_blank" href="https://x.com/akkpk933" className='text-gray-400'>
                 <FaSquareXTwitter />
             </a>
         </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
         <button 
             className="md:hidden focus:outline-none w-12 px-3"
             onClick={handleClick}
-
+            onBlur={() => setTimeout(() => setIsHidden(!isHidden), 1000)}
         >
             <svg className="h-6 w-10 text-white" fill="none" viewBox="0 0 24 22" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
         </button>

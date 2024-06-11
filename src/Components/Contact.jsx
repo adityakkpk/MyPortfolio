@@ -1,4 +1,3 @@
-import React from "react";
 import { CONTACT } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -49,13 +48,13 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="flex flex-wrap items-center justify-center text-2xl gap-4 px-3 py-10"
       >
-        <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha">
+        <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha" className="text-blue-600">
           <FaLinkedin />
         </a>
         <a target="_blank" href="https://github.com/adityakkpk">
           <FaGithub />
         </a>
-        <a target="_blank" href="https://x.com/akkpk933">
+        <a target="_blank" href="https://x.com/akkpk933" className="text-gray-400">
           <FaSquareXTwitter />
         </a>
         <a target="_blank" href="https://drive.google.com/file/d/1-InMJC7fEN74o7_dlHoEq2XmsSdGKNsd/view">
