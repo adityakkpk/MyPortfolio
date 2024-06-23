@@ -9,14 +9,15 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "Amazon Clone",
-    image: project2,
+    title: "Blogging Application",
+    image: project4,
     description:
-      "A fully functional website with features like product listing, shopping cart, and tracking of orders.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    demoLink: 'https://adityakkpk.github.io/AmazoneClone/amazon.html',
-    githubLink: 'https://github.com/adityakkpk/AmazoneClone'
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using Appwrite as Backend",
+    technologies: ["HTML", "CSS", "React", "Appwrite",],
+    demoLink: 'https://mini-blog-react-appwrite-app.vercel.app/',
+    githubLink: 'https://github.com/adityakkpk/MiniBlog-React-Appwrite'
   },
+
   {
     title: "Portfolio Website",
     image: project3,
@@ -26,14 +27,25 @@ export const PROJECTS = [
     demoLink: 'https://my-portfolio-git-main-aditya-kumar-kushwahas-projects.vercel.app/',
     githubLink: 'https://github.com/adityakkpk/MyPortfolio'
   },
+  
   {
-    title: "Blogging Application",
-    image: project4,
+    title: "Amazon Clone",
+    image: project2,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using Appwrite as Backend",
-    technologies: ["HTML", "CSS", "React", "Appwrite",],
-    demoLink: 'https://mini-blog-react-appwrite-app.vercel.app/',
-    githubLink: 'https://github.com/adityakkpk/MiniBlog-React-Appwrite'
+      "A fully functional website with features like product listing, shopping cart, and tracking of orders.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    demoLink: 'https://adityakkpk.github.io/AmazoneClone/amazon.html',
+    githubLink: 'https://github.com/adityakkpk/AmazoneClone'
+  },
+
+  {
+    title: "Github Information",
+    image: project1,
+    description:
+      "A website where you will get some of your Github profile's public informations.",
+    technologies: ["React", "React-Router-Dom", "Github API", "Tailwind CSS"],
+    demoLink: 'https://github-info-dusky.vercel.app/',
+    githubLink: 'https://github.com/adityakkpk/ReactRouter-GithubAPI'
   },
 ];
 
