@@ -15,7 +15,10 @@ const Projects = () => {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center border-b border-slate-900 mx-2 lg:mx-10">
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center border-b border-slate-900 mx-2 lg:mx-10"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -46,18 +49,24 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-              {!project.demoLink ? (
-                ""
-              ) : (
-                <div className="mt-2">
-                  <a
-                    target="_blank"
-                    className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
-                    href={project.demoLink}
-                  >
-                    Live
-                  </a>
-                  <span> | </span>
+              <div className="mt-2">
+                {!project.demoLink ? (
+                  ""
+                ) : (
+                  <>
+                    <a
+                      target="_blank"
+                      className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
+                      href={project.demoLink}
+                    >
+                      Live
+                    </a>
+                    <span> | </span>
+                  </>
+                )}
+                {!project.githubLink ? (
+                  ""
+                ) : (
                   <a
                     target="_blank"
                     className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
@@ -65,8 +74,8 @@ const Projects = () => {
                   >
                     Github
                   </a>
-                </div>
-              )}
+                )}
+              </div>
             </motion.div>
           </div>
         ))}

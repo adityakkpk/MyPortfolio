@@ -19,6 +19,25 @@ export const PROJECTS = [
   },
 
   {
+    title: "Github Information",
+    image: project1,
+    description:
+      "A website where you will get some of your Github profile's public informations.",
+    technologies: ["React", "React-Router-Dom", "Github API", "Tailwind CSS", "Context-API"],
+    demoLink: 'https://github-info-dusky.vercel.app/',
+    githubLink: 'https://github.com/adityakkpk/ReactRouter-GithubAPI'
+  },
+
+  {
+    title: "React News Application",
+    image: project4,
+    description: "A fully functional web application with features like showing Latest News, Filtering News based on categories, Pagination etc",
+    technologies: ["React.js", "React-Router", "Custom-Hooks", "NEWS API", "Tailwind CSS"],
+    demoLink: "",
+    githubLink: "https://github.com/adityakkpk/React-News-App",
+  },
+
+  {
     title: "Portfolio Website",
     image: project3,
     description:
@@ -38,15 +57,6 @@ export const PROJECTS = [
     githubLink: 'https://github.com/adityakkpk/AmazoneClone'
   },
 
-  {
-    title: "Github Information",
-    image: project1,
-    description:
-      "A website where you will get some of your Github profile's public informations.",
-    technologies: ["React", "React-Router-Dom", "Github API", "Tailwind CSS"],
-    demoLink: 'https://github-info-dusky.vercel.app/',
-    githubLink: 'https://github.com/adityakkpk/ReactRouter-GithubAPI'
-  },
 ];
 
 export const CONTACT = {
