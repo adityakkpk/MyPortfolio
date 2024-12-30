@@ -9,6 +9,24 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
+    title: "Random Feedbacks",
+    image: project4,
+    description:
+      "A platform for where you can take feedbacks from anonymous users",
+    technologies: ["Typescript", "React", "Tailwind", "Gemini-AI",],
+    demoLink: '',
+    githubLink: 'https://github.com/adityakkpk/random-feedback'
+  },
+  {
+    title: "Real Time Chat App",
+    image: project4,
+    description:
+      "A real time chat application",
+    technologies: ["Express", "React", "Tailwind", "WebSocket",],
+    demoLink: 'https://chat-realtime-1rqe.onrender.com/',
+    githubLink: 'https://github.com/adityakkpk/ChatApp'
+  },
+  {
     title: "Blogging Application",
     image: project4,
     description:
@@ -17,7 +35,6 @@ export const PROJECTS = [
     demoLink: 'https://mini-blog-appwrite.vercel.app/',
     githubLink: 'https://github.com/adityakkpk/MiniBlog-React-Appwrite'
   },
-
   {
     title: "Github Information",
     image: project1,
