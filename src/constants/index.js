@@ -53,16 +53,6 @@ export const PROJECTS = [
     demoLink: "",
     githubLink: "https://github.com/adityakkpk/React-News-App",
   },
-
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    demoLink: 'https://my-portfolio-git-main-aditya-kumar-kushwahas-projects.vercel.app/',
-    githubLink: 'https://github.com/adityakkpk/MyPortfolio'
-  },
   
   {
     title: "Amazon Clone",
