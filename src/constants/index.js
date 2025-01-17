@@ -13,7 +13,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for where you can take feedbacks from anonymous users",
-    technologies: ["Typescript", "React", "Tailwind", "Gemini-AI",],
+    technologies: ["Typescript", "React", "Tailwind", "Gemini-AI API",],
     demoLink: '',
     githubLink: 'https://github.com/adityakkpk/random-feedback'
   },
@@ -30,7 +30,7 @@ export const PROJECTS = [
     title: "Blogging Application",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using Appwrite as Backend",
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using AppWrite as Backend",
     technologies: ["HTML", "CSS", "React", "Appwrite",],
     demoLink: 'https://mini-blog-appwrite.vercel.app/',
     githubLink: 'https://github.com/adityakkpk/MiniBlog-React-Appwrite'
@@ -39,7 +39,7 @@ export const PROJECTS = [
     title: "Github Information",
     image: project1,
     description:
-      "A website where you will get some of your Github profile's public informations.",
+      "A website where you will get some of your Github profile's public information.",
     technologies: ["React", "React-Router-Dom", "Github API", "Tailwind CSS", "Context-API"],
     demoLink: 'https://github-info-dusky.vercel.app/',
     githubLink: 'https://github.com/adityakkpk/ReactRouter-GithubAPI'
