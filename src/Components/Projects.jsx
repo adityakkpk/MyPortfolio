@@ -17,7 +17,7 @@ const Projects = () => {
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="mb-8 flex flex-wrap lg:justify-center border-b border-slate-900 mx-2 lg:mx-10"
+            className="mb-8 flex flex-wrap lg:justify-center border-b border-slate-900 mx-2 lg:mx-10 p-4"
           >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -27,10 +27,8 @@ const Projects = () => {
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 w-[150px] h-[120px] rounded"
               />
             </motion.div>
             <motion.div
@@ -44,19 +42,19 @@ const Projects = () => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-700 px-2 py-1 text-sm font-medium text-purple-500"
                 >
                   {tech}
                 </span>
               ))}
-              <div className="mt-2">
+              <div className="my-4">
                 {!project.demoLink ? (
                   ""
                 ) : (
                   <>
                     <a
                       target="_blank"
-                      className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
+                      className="my-2 text-cyan-500 underline hover:text-cyan-200 duration-200"
                       href={project.demoLink}
                     >
                       Live
@@ -69,7 +67,7 @@ const Projects = () => {
                 ) : (
                   <a
                     target="_blank"
-                    className="my-2 text-cyan-500 hover:text-cyan-200 duration-200"
+                    className="my-2 text-cyan-500 underline hover:text-cyan-200 duration-200"
                     href={project.githubLink}
                   >
                     Github
