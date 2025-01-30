@@ -57,7 +57,7 @@ const Contact = () => {
         <a target="_blank" href="https://x.com/akkpk933" className="text-gray-400">
           <FaSquareXTwitter />
         </a>
-        <a target="_blank" href="https://drive.google.com/file/d/1JEs4UrE4gowLp3JDD9MNgD--vpqXT20g/view">
+        <a target="_blank" href="https://drive.google.com/file/d/1e0LWmP6fZJR0JXdFsc_sk_UfCMZpT2vH/view?usp=sharing">
           <FaRegFilePdf />
         </a>
       </motion.div>
