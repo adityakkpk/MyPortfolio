@@ -15,7 +15,7 @@ export const PROJECTS = [
     description:
       "A platform for where you can take feedbacks from anonymous users",
     technologies: ["Typescript", "React", "Tailwind", "Gemini-AI API"],
-    demoLink: "",
+    demoLink: "https://random-feedback.vercel.app/",
     githubLink: "https://github.com/adityakkpk/random-feedback",
   },
   {
